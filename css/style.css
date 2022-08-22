@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu-items li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.banner-description {
+    margin-left: 50px;
+}
+
+.banner-left {
+    width: 60%;
+}
+
+.banner-right {
+    width: 40%;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+.banner-text {
+    color: red;
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.title-one {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.banner-btn {
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.section-tow {
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.card1 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .8ms;
+
+}
+
+.card1:hover {
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: .5s;
+
+}
+
+.card-description p {
+    text-align: justify;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.gym-icon {
+    width: 80px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.aboout-us-images {
+    width: 60%;
+    margin: 0 5%;
+
+
+
+}
+
+.images {
+    border-top: 1px solid red;
+}
+
+.aboout-us-images span {
+    display: block;
+
+}
+
+.aboout-us-images img {
+    width: 45%;
+    height: 90vh;
+    transform: skewY(-20deg);
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.about-us-text {
+    width: 60%;
+    border-top: 2px solid white;
+    margin: 0 5%;
+
+}
+
+.section-three {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(16, 15, 15);
+    color: white;
+}
+
+.title3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-us-text h1 {
+    font-size: 50px;
+}
+
+.about-us-text p {
+    font-size: 26px;
+    color: rgb(170, 169, 169);
+    margin-bottom: 30px;
+}
+
+.about-us-text li {
+    list-style: square;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.section-forth {}
+
+.live-chat-container {
+    background-image: url(../images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    border-radius: 30px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    align-items: center;
+}
+
+.chat-text {
+    color: white;
+    font-size: 24px;
+
+}
+
+.chat-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 24px;
+}
+
+.chat-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+
+
+}
+
+.service {
+    width: 25%;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 15px;
+}
+
+.service-image img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.service-title {
+    color: red;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.service-name {
+    padding: 0 10px 0;
+    font-weight: 800;
+}
+
+.service-author {
+    display: block;
+    padding: 0 10px 10px;
+    font-weight: bold;
+}
+
+.service-pricing {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.joining a {
+    text-decoration: none;
+    color: red;
+}
+
+.joining a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 70px 0;
+    width: 90%;
+    border-top: 1px solid black;
+    margin: 0 auto;
+}
